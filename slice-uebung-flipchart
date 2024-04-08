@@ -1,0 +1,15 @@
+Folgendes Szenario:
+
+In unserer Software soll es eine Logik geben, die aus einem gegebenen Satz das erste Wort ermittelt. Falls der Satz keine Leerzeichen enthält, soll der ganze Satz zurückgegeben werden.
+
+Schreibe eine Funktion die obige Anforderung erfüllt:
+
+fn first_word(s: &String) -> ?
+
+Iterator über String:
+
+for (i, &item) in string.as_bytes().iter().enumerate()
+
+Auf Leerzeichen prüfen:
+
+if item == b' '

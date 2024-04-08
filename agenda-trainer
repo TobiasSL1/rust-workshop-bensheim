@@ -1,0 +1,36 @@
+Rust-Workshop
+
+1) Vorstellungsrunde
+* Rolle im Team
+* Wie viel mit Rust gemacht: Was wollen Sie von Rust wissen? (Post-Its, Flipchart)
+ 
+2) Vorstellung des Workshops
+* Einführung in Rust
+* vom Novizen zum Fortgeschrittenen (aber nicht zum Experten)
+* Infos, die wir bekommen haben: C/C++ Kenntnisse sind vorhanden. Aber keine Rust Kenntnisse. Ins Gespräch kommen.
+* Ziele: Rust Tooling, Syntax, Bibliotheken kennen
+* Übungen mal alleine, mal in pair-Programming
+ 
+3) Quiz: Was wissen Sie über Rust?
+* Was meinen die anderen?
+ 
+4) Themen
+    1. Tag
+	* Motivation: 'Why' of Rust language (1_1-introduction-export.pdf); Google, C++ (https://www.heise.de/news/Neue-Sicherheitsstrategie-bei-Google-Rust-statt-C-9646686.html)
+	* Basic syntax and operators-> Manfred (2_1-basic-syntax-export.pdf; exercises/2-foundations-of-rust/1-basic-syntax/1-basic-syntax/src/bin/)
+	* Cargo, Rust Editions -> Manfred
+	* Eine Übung zu Ownership (exercises/2-foundations-of-rust/2-ownership-and-references/1-move-semantics/src/bin/02.rs)
+	* move semantics, ownership, references (exercises/2-foundations-of-rust/2-ownership-and-references, 2_2-ownership-and-references-export.pdf)
+	* Slices... (Slices von 2_3-advanced-syntax-export.pdf, Übung https://doc.rust-lang.org/book/ch04-03-slices.html)
+ 
+	* advanced syntax (Rest von 2_3-advanced-syntax-export.pdfm exercises/2-foundations-of-rust/3-advanced-syntax) Übung (ohne slices/merge-sort)
+ 
+    2. Tag
+	* Traits and generics, (2_4-traits-and-generics-export.pdf, exercises/2-foundations-of-rust/4-traits-and-generics/1-local-storage-vec/)
+	* Polymorphismus (2_5-closures-and-dynamic-dispatch-export.pdf, exercises/2-foundations-of-rust/5-closures-and-dynamic-dispatch)
+ 
+	* Crates, Modules and Packages, Manfred https://doc.rust-lang.org/book/ch07-01-packages-and-crates.html
+ 
+	* Application programming (3_1-crate-engineering-export.pdf, exercises/3-crate-engineering/1-crate-engineering/, außer quizzer)
+	* Foreign function interfaces (4_1-foreign-function-interface-export.pdf (exercises/4-rust-for-systems-programming/1-foreign-function-interface/)
+ 
