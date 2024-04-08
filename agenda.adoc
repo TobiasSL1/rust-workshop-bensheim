@@ -1,0 +1,19 @@
+ 
+= Agenda
+
+. Vorstellungsrunde
+. Vorstellung des Workshops
+. Quiz: Was weißt du über Rust?
+. Themen
+
+* Why Rust
+* Basic syntax and operators
+* Cargo, Rust Editions
+* Move semantics, Ownership and References
+* Slices
+* Advanced Syntax
+* Traits and Generics
+* Polymorphismus
+* Crates, Module and Packages
+* Application programming
+* (Foreign function interfaces)
