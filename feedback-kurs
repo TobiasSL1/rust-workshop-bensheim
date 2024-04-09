@@ -1,6 +1,17 @@
--Tobias: 	Mehr Fragen beim Quiz. Vielleicht mehr aus Teilnehmer herauskitzeln.
-			Freier sprechen
-			Nicht so viel "öhm" sagen
+Tobias:
+-Fragen beim Quiz. Vielleicht mehr aus Teilnehmer herauskitzeln.
+-Freier sprechen
+-Nicht so viel "öhm" sagen
+
+Allgemein:
+-Pausenplanung vorher besprechen
+-Bei Vorstellung von Ordnerstruktur auch Instruktionen für Übungen erwähnen
+-Folie erstellen auf der Übungen und Folie gelistet ist
+-Wechsel zwischen Folien flüssiger gestalten
+-uebung ownership 02.rs kommentar entfernen und stringify!(...) entfernen
+-wir brauchen einen Presenter
+-Übung first_word: Signatur vorgeben und aufrufenden Code. Dann Slices vorstellen. Dann Musterlösung als Demo (mit Kommentarspur) präsentieren.
+-Timebox für Übungen
 
 Thematisch:
 Ownership:
@@ -9,8 +20,13 @@ Ownership:
 	-Folie 'References (mutable)' darüber sprechen warum change(&mut s) steht und nicht change(s). Diese Frage an Teilnehmer stellen.
 	-Bei References noch darauf eingehen wie lange eine Referenz geht
 
--Pausenplanung vorher besprechen
--Folie erstellen auf der Übungen und Folie gelistet ist
--Wechsel zwischen Folien flüssiger gestalten
--uebung ownership 02.rs kommentar entfernen und stringify!(...) entfernen
--wir brauchen einen Presenter
+
+Feedback Tag1:
+-Mehr zu Ownership
+-Mehr auf Boxing eingehen
+-Ownership, Boxing Vektor; Bei Ringbuffer erklären, warum man Box verwendet. Was genau bedeutet Box<[u8]>
+-Bei Übung zu Error-Handling kleine Textdatei dazugeben zum Einlesen
+-FlipChart auf RotGrün-Schwäche achten
+-Pausen ankündigen
+-Wir sollten uns zuerst vorstellens
+-Motivation Rust: Welche Projekte verwenden Rust?
