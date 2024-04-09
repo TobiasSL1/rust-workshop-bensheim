@@ -1,6 +1,16 @@
--Tobias: Mehr Fragen beim Quiz. Vielleicht mehr aus Teilnehmer herauskitzeln.
+-Tobias: 	Mehr Fragen beim Quiz. Vielleicht mehr aus Teilnehmer herauskitzeln.
+			Freier sprechen
+			Nicht so viel "öhm" sagen
+
+Thematisch:
+Ownership:
+	-Bei Folie Ownership 'let s2 = s1' die Leute fragen, was sie glauben was passiert!
+	-Bei Folie Ownership zeigen wie der Speicher aussieht.
+	-Folie 'References (mutable)' darüber sprechen warum change(&mut s) steht und nicht change(s). Diese Frage an Teilnehmer stellen.
+	-Bei References noch darauf eingehen wie lange eine Referenz geht
 
 -Pausenplanung vorher besprechen
 -Folie erstellen auf der Übungen und Folie gelistet ist
 -Wechsel zwischen Folien flüssiger gestalten
 -uebung ownership 02.rs kommentar entfernen und stringify!(...) entfernen
+-wir brauchen einen Presenter
