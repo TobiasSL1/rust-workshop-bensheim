@@ -7,7 +7,7 @@ Tobias:
 	Frage 2: frage zu move semantics?
 	Frage 3: Ist Array primitiv? Wenn Elemente in Array Copy-Trait implementieren, dann implementiert Array auch Copy-Trait 
 -Gut: Bei Folie Reference conversion mit Beispiel fragen, ob Unterschied zwischen Polymorphismus und zwei unterschiedlichen generierten Code-Statements klar ist.
-
+-Presenter nutzen!!!!
 
 
 Allgemein:
@@ -28,6 +28,10 @@ Ownership:
 	-Bei References noch darauf eingehen wie lange eine Referenz geht
 Lifetimes:
 	-Frage ob das kompiliert länger stehen lassen
+Folie Dynamic Dispatch Schreibfehler bei Zeilt 19 (Nome anstatt None)
+Fehler bei Shapes (vec.push) Lösung korrigieren
+Beispielcode mit Closure (x+y+z) kompiliert nicht
+Bei Folie zu "Object Safety" bei Traits entweder was sagen oder Folie nicht anzeigen
 
 
 Feedback Tag1:
@@ -43,3 +47,4 @@ Feedback Tag1:
 -Zusatzaufgaben -> Macht nur Übung 1, die die schnell sind machen noch Übung 2
 -Codebattles?
 
+-Was ist mit Monomorphisation?
