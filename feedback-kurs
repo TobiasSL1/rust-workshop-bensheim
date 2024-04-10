@@ -2,6 +2,13 @@ Tobias:
 -Fragen beim Quiz. Vielleicht mehr aus Teilnehmer herauskitzeln.
 -Freier sprechen
 -Nicht so viel "öhm" sagen
+-Gut: Am Anfang vom zweiten Tag auch ein Quiz machen! Wenn ein Teilnehmer antwortet und Antwort ist vielleicht nicht richtig, dann noch die anderen Teilnehmer fragen
+	Frage 1: ultra schnelles programm rust oder nicht? 
+	Frage 2: frage zu move semantics?
+	Frage 3: Ist Array primitiv? Wenn Elemente in Array Copy-Trait implementieren, dann implementiert Array auch Copy-Trait 
+-Gut: Bei Folie Reference conversion mit Beispiel fragen, ob Unterschied zwischen Polymorphismus und zwei unterschiedlichen generierten Code-Statements klar ist.
+
+
 
 Allgemein:
 -Pausenplanung vorher besprechen
@@ -19,6 +26,8 @@ Ownership:
 	-Bei Folie Ownership zeigen wie der Speicher aussieht.
 	-Folie 'References (mutable)' darüber sprechen warum change(&mut s) steht und nicht change(s). Diese Frage an Teilnehmer stellen.
 	-Bei References noch darauf eingehen wie lange eine Referenz geht
+Lifetimes:
+	-Frage ob das kompiliert länger stehen lassen
 
 
 Feedback Tag1:
@@ -33,3 +42,4 @@ Feedback Tag1:
 -Bei Übung zu Traits nicht zu sehr auf Traits eingehen
 -Zusatzaufgaben -> Macht nur Übung 1, die die schnell sind machen noch Übung 2
 -Codebattles?
+
