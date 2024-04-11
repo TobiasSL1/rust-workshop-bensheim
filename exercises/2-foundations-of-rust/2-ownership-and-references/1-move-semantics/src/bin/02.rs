@@ -1,4 +1,4 @@
-//! Make me compile without changing line 11, but by moving line 8!
+//! Make me compile without changing line 11, but by only moving a line!
 //! If you're curious: the `stringify!` macro transforms tokens to
 //! a string. For instance, `stringify!(s1)` yields string `"s1"`.
 
