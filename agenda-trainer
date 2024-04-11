@@ -1,5 +1,7 @@
 Rust-Workshop
 
+0) Tobias und Manfred stellen sich vor
+
 1) Vorstellungsrunde
 * Rolle im Team
 * Wie viel mit Rust gemacht: Was wollen Sie von Rust wissen? (Post-Its, Flipchart)
@@ -9,7 +11,8 @@ Rust-Workshop
 * vom Novizen zum Fortgeschrittenen (aber nicht zum Experten)
 * Infos, die wir bekommen haben: C/C++ Kenntnisse sind vorhanden. Aber keine Rust Kenntnisse. Ins Gespräch kommen.
 * Ziele: Rust Tooling, Syntax, Bibliotheken kennen
-* Übungen mal alleine, mal in pair-Programming
+* Pausenplanung (Teilnehmer motivieren dass sie eine Pause einfordern falls zu viel)
+* Ordnerstruktur vorstellen / Repo vorstellen (s. Bild folder-structure.png)
  
 3) Quiz: Was wissen Sie über Rust?
 * Was meinen die anderen?

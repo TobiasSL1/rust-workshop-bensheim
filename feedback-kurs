@@ -1,50 +1,55 @@
-Tobias:
--Fragen beim Quiz. Vielleicht mehr aus Teilnehmer herauskitzeln.
--Freier sprechen
--Nicht so viel "öhm" sagen
--Gut: Am Anfang vom zweiten Tag auch ein Quiz machen! Wenn ein Teilnehmer antwortet und Antwort ist vielleicht nicht richtig, dann noch die anderen Teilnehmer fragen
-	Frage 1: ultra schnelles programm rust oder nicht? 
-	Frage 2: frage zu move semantics?
-	Frage 3: Ist Array primitiv? Wenn Elemente in Array Copy-Trait implementieren, dann implementiert Array auch Copy-Trait 
--Gut: Bei Folie Reference conversion mit Beispiel fragen, ob Unterschied zwischen Polymorphismus und zwei unterschiedlichen generierten Code-Statements klar ist.
--Presenter nutzen!!!!
-
-
 Allgemein:
--Pausenplanung vorher besprechen
--Bei Vorstellung von Ordnerstruktur auch Instruktionen für Übungen erwähnen
--Folie erstellen auf der Übungen und Folie gelistet ist
--Wechsel zwischen Folien flüssiger gestalten
--uebung ownership 02.rs kommentar entfernen und stringify!(...) entfernen
--wir brauchen einen Presenter
+-Pausenplanung vorher besprechen (done)
+-Bei Vorstellung von Ordnerstruktur auch Instruktionen für Übungen erwähnen (done)
+-Folie erstellen auf der Übungen und Folie gelistet ist (done)
+-Wechsel zwischen Folien flüssiger gestalten (pptx in pdf exportieren, quelle in latex umwandeln?!)
+-uebung ownership 02.rs kommentar entfernen und stringify!(...) entfernen (done)
+-wir brauchen einen Presenter (tobias)
 -Übung first_word: Signatur vorgeben und aufrufenden Code. Dann Slices vorstellen. Dann Musterlösung als Demo (mit Kommentarspur) präsentieren.
--Timebox für Übungen
+-first-word Übung anlegen (manfred)
+-Timebox für Übungen (done)
 
 Thematisch:
 Ownership:
-	-Bei Folie Ownership 'let s2 = s1' die Leute fragen, was sie glauben was passiert!
-	-Bei Folie Ownership zeigen wie der Speicher aussieht.
-	-Folie 'References (mutable)' darüber sprechen warum change(&mut s) steht und nicht change(s). Diese Frage an Teilnehmer stellen.
-	-Bei References noch darauf eingehen wie lange eine Referenz geht
-Lifetimes:
-	-Frage ob das kompiliert länger stehen lassen
-Folie Dynamic Dispatch Schreibfehler bei Zeilt 19 (Nome anstatt None)
+	-Bei Folie Ownership 'let s2 = s1' (Ownership-and-References.pdf;Slide Nummer 12) die Leute fragen, was sie glauben was passiert! (done)
+	-Folie 'References (mutable)' (Ownership-and-References.pdf;Slide Nummer 22) darüber sprechen warum change(&mut s) steht und nicht change(s). Diese Frage an Teilnehmer stellen. (done)
+Lifetimes (Traits-and-generics.pdf;Folie 32): Frage ob das kompiliert länger stehen lassen (done)
+
+Folie Dynamic Dispatch Schreibfehler bei Zeile 19 (Nome anstatt None) (done)
 Fehler bei Shapes (vec.push) Lösung korrigieren
-Beispielcode mit Closure (x+y+z) kompiliert nicht
-Bei Folie zu "Object Safety" bei Traits entweder was sagen oder Folie nicht anzeigen
+Beispielcode mit Closure (x+y+z) kompiliert nicht (done)
+Bei Folie zu "Object Safety" bei Traits entweder was sagen oder Folie nicht anzeigen (done)
 
 
 Feedback Tag1:
 -Mehr zu Ownership
 -Mehr auf Boxing eingehen
--Ownership, Boxing Vektor; Bei Ringbuffer erklären, warum man Box verwendet. Was genau bedeutet Box<[u8]>
--Bei Übung zu Error-Handling kleine Textdatei dazugeben zum Einlesen
+-Ownership, Boxing Vektor; Bei Ringbuffer erklären, warum man Box verwendet. Was genau bedeutet Box<[u8]> (done)
+-Bei Übung zu Error-Handling kleine Textdatei dazugeben zum Einlesen (steht doch dran)
 -FlipChart auf RotGrün-Schwäche achten
--Pausen ankündigen
--Wir sollten uns zuerst vorstellens
--Motivation Rust: Welche Projekte verwenden Rust?
--Bei Übung zu Traits nicht zu sehr auf Traits eingehen
--Zusatzaufgaben -> Macht nur Übung 1, die die schnell sind machen noch Übung 2
--Codebattles?
+-Pausen ankündigen (done)
+-Wir sollten uns zuerst vorstellen (done)
+-Motivation Rust: Welche Projekte verwenden Rust? (done)
+-Bei Übung zu error-handling nicht zu sehr auf Traits eingehen!!!!
+-Zusatzaufgaben -> Macht nur Übung 1, die die schnell sind machen noch Übung 2 (done)
 
--Was ist mit Monomorphisation?
+
+Feedback Tag2:
+-Nicht sagen im Bezug auf Folien "ich würde es anders sagen".
+-Einige Folien rausnehmen (Learning Objects, Summary, ToDo)
+-Letztes Kapitel anders nennen (Erwartung an "Application Programming" war anders; "Best Practices and Design Patterns")
+-Cheat Sheet bzw. das was für Übung relevant ist stehen lassen (slides sind im ordner; kann jeder selber nachschlagen)
+-Flipchart mit Übersicht welche Übung gerade dran ist (done)
+-Thema am Ende: Was gibt es für Bibliotheken bzw. Ökosystem mehr Fokus drauf legen (erledigt sich, da wir bei übung zu local-storage-vec nicht 2,5 h sondern nur 1,5h zeit nehmen)
+-Wie bindet man Bibliotheken in Cargo.toml ein
+-Wo findet man die ganzen crates? -> In Vortrag zu Cargo
+-Beispiel zu "as_ und to_ und into_"
+-Übung zu map, filter, collect (bei uebung error-handling map_err())
+-Vortrag Traits and Generics einen Cut bzw. 5 Minuten Pause
+-Bei Übung local Storage Vec schneller zu den Leuten gehen
+-Übung zu Tests (dafür LocalStorageVec kürzer; Timebox: 1,5h; AsRef schon implementieren; todo reinmachen was man tun soll)
+-Insgesamt früher auf die Leute zugehen
+
+
+
+Jeremy Cone Typestate Pattern https://www.youtube.com/watch?v=pwmIQzLuYl0
