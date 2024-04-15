@@ -1,0 +1,38 @@
+\mode<presentation>
+
+\pgfdeclareimage[width=\paperwidth]{andrena theme/slide background}{background-slide-169.png}
+
+\setbeamersize{text margin left=.61cm,text margin right=.61cm}
+\setbeamertemplate{navigation symbols}{}
+
+\setbeamercolor*{institute in head/foot}{fg=white}
+\setbeamercolor*{frame number in head/foot}{fg=white}
+
+\defbeamertemplate*{headline}{andrena theme}
+{%
+  \vskip1cm%
+}
+
+\defbeamertemplate*{background canvas}{andrena theme}
+{%
+    \pgfuseimage{andrena theme/slide background}
+}
+
+\defbeamertemplate*{footline}{andrena theme}
+{
+  \leavevmode%
+    \hbox{%
+        \begin{beamercolorbox}[wd=\paperwidth,ht=3.5ex,dp=.2cm]{footline}%
+            \hspace*{2ex}%
+            \usebeamerfont{footline}%
+            \insertinstitute%
+            \hfill%
+            \insertpart%
+            \hspace*{2ex}%
+        \end{beamercolorbox}
+    }%
+    \vskip0pt%
+}
+
+\mode
+<all>
