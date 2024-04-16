@@ -79,6 +79,11 @@
 \begin{frame}
     \frametitle{How to organize code}
     \begin{itemize}
+        \item Module: Collection of items like functions, structs, traits and impl blocks
+        \begin{itemize}
+            \item[$\diamond$] The use keyword creates shortcuts to items
+        \end{itemize}
+        \vspace{\baselineskip}
         \item Crate: Tree of modules producing a library or executable.
         \item Crate Root is source file that Rust compiler starts from to make up root module of crate
         \begin{itemize}
@@ -86,11 +91,7 @@
             \item[$\diamond$] Library Crates – Crate Root: src/lib.rs
         \end{itemize}
         \vspace{\baselineskip}
-        \item Package: A bundle of one or more crates
-        \vspace{\baselineskip}
-        \item Module: Collection of items like functions, structs, traits and impl blocks                \begin{itemize}
-            \item[$\diamond$] The use keyword creates shortcuts to items
-        \end{itemize}
+        \item Package: A bundle of one or more crates (contains \textit{Cargo.toml})
         \vspace{\baselineskip}
         \item Paths: A way of naming an item to show Rust where to find an item in a module trees
         \begin{itemize}
