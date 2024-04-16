@@ -1,10 +1,17 @@
  
 = Agenda
 
-. Vorstellungsrunde
-. Vorstellung des Workshops
+. Begrüßung
 . Quiz: Was weißt du über Rust?
-. Themen
+. Hello Rust
+. Ownership
+. Error Handling
+. Traits
+. Generics
+. Dynamic Dispatch
+. Module System
+. Best Practices
+
 
 * Why Rust
 * Basic syntax and operators
