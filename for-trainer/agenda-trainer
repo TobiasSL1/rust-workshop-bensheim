@@ -22,7 +22,7 @@ Rust-Workshop
 	* Motivation: 'Why' of Rust language (1_1-introduction-export.pdf); Google, C++ (https://www.heise.de/news/Neue-Sicherheitsstrategie-bei-Google-Rust-statt-C-9646686.html)
 	* Basic syntax and operators-> Manfred (2_1-basic-syntax-export.pdf; exercises/2-foundations-of-rust/1-basic-syntax/1-basic-syntax/src/bin/)
 	* Cargo, Rust Editions -> Manfred
-	* Eine Übung zu Ownership (exercises/2-foundations-of-rust/2-ownership-and-references/1-move-semantics/src/bin/02.rs)
+	* Demo Ownership. Code zeigen und fragen ob sie glauben, ob das kompiliert (exercises/2-foundations-of-rust/2-ownership-and-references/1-move-semantics/src/bin/02.rs)
 	* move semantics, ownership, references (exercises/2-foundations-of-rust/2-ownership-and-references, 2_2-ownership-and-references-export.pdf + übung zu borrowing)
 	* advanced syntax bis slices (2_3-advanced-syntax-export.pdf; übung 2-foundations-of-rust/3-advanced-syntax/1-error-propagation; 2-foundations-of-rust/3-advanced-syntax/2-error-handling)
 	* vorstellung first_word mit index; darüber sprechen; theory slices; demo first_word (code auf https://doc.rust-lang.org/book/ch04-03-slices.html)
