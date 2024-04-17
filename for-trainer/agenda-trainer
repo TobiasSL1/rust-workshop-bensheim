@@ -29,11 +29,29 @@ Rust-Workshop
 	* weiter mit advanced syntax (smart pointers; übung 2-foundations-of-rust/3-advanced-syntax/4-ring-buffer, 2-foundations-of-rust/3-advanced-syntax/5-boxed-data)
  
     2. Tag
+    	* Quiz
+    	* Nachlieferung von Themen
+    	* Error-Handling mit From-Trait
 	* Traits and generics, (2_4-traits-and-generics-export.pdf, exercises/2-foundations-of-rust/4-traits-and-generics/1-local-storage-vec/)
 	* Polymorphismus (2_5-closures-and-dynamic-dispatch-export.pdf, exercises/2-foundations-of-rust/5-closures-and-dynamic-dispatch)
+ 
+ 	* Wünsche-Check (Vorstellungen abhaken)
  
 	* Crates, Modules and Packages, Manfred https://doc.rust-lang.org/book/ch07-01-packages-and-crates.html
  
 	* Application programming (3_1-crate-engineering-export.pdf, exercises/3-crate-engineering/1-crate-engineering/, außer quizzer)
 	* Foreign function interfaces (4_1-foreign-function-interface-export.pdf (exercises/4-rust-for-systems-programming/1-foreign-function-interface/)
  
+ 
+ Mögliche Quizfragen:
+Tag 1:
+	-Wie oft wird Rust eingesetzt?
+	-Jobmarkt weltweit und in Deutschland
+ 
+Tag 2:
+	-Frage 1: Sollte man Rust verwenden, wenn es um Performance geht?
+	-Frage 2: Frage zu move semantics? Wie funktioniert das? Was passiert im Hintergrund?
+	-Frage 3: Ist Array primitiv? Wenn Elemente in Array Copy-Trait implementieren, dann implementiert Array auch Copy-Trait 
+	
+	
+	
